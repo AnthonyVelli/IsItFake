@@ -1,0 +1,24 @@
+{
+  "name": "isitfake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "isitfake.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyVelli/IsItFake.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyVelli/IsItFake/issues"
+  },
+  "homepage": "https://github.com/AnthonyVelli/IsItFake#readme",
+  "dependencies": {
+    "google": "^2.0.0",
+    "promisify-node": "^0.4.0",
+    "querystring": "^0.2.0"
+  }
+}

@@ -1,8 +1,8 @@
 var port = chrome.runtime.connect({name:"mycontentscript"});
 console.log('content script firedtest');
-title = document.title;
-debugger;
-chrome.runtime.sendMessage(title, function(modifiedtitle){
-	console.log("response received");
-	console.log(modifiedtitle);
-});
+var title = document.title;
+console.log(title);
+chrome.runtime.sendMessage(title);
+chrome.runtime.onMessage.addListener(function(hitCount){
+	console.log(hitCount);
+})

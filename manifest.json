@@ -12,7 +12,7 @@
   "version": "0.1",
 
   "background": {
-    "scripts": ["isitfake.js"],
+    "scripts": ["bundle.js"],
     "persistent": false
   },
 
